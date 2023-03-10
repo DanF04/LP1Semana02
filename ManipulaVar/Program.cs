@@ -9,10 +9,13 @@ namespace ManipulaVar
  
             int x = Convert.ToInt32(args[0]);
             int xx = x;
+            int xy = x;
             xx++;
-            
+            --xy;
+
 
             Console.WriteLine(xx);
+            Console.WriteLine(xy);
         }
     }
 }
