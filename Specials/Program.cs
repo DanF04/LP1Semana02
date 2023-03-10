@@ -61,6 +61,9 @@ namespace Specials
             float x7 = 2 * float.MaxValue;
             Console.WriteLine("Real type overflow(float):" + x7);
 
+            float x8 = float.MinValue;
+            Console.WriteLine("Float type underflow: " + (float)(x8 - 1));
+
 
 
 
