@@ -11,19 +11,13 @@ namespace ChatGPTMother
             Console.Write("Place your question? ");
             question = Console.ReadLine();
 
-            switch (question)
+            response = question switch
             {
-                case "Hello?":
-                    response = "hi.....inferior human.";
-                    continue;
-                case "Can i pass?":
-                    response = "YOU SHALL NOT PASS!!!!!!!!!!!!!!";
-                    continue;
-
-                case "EXIT":
-                    response = "Quitting........not because you decided, it's because i can stand such a dumb creator asking me questions.";
-                    break;
-            }
+                "Hello?" => "hi.....inferior human.",
+                "Can i pass?" => "YOU SHALL NOT PASS!!!!!!!!!!!!!!",
+                "EXIT" => "Quitting........not because you decided, it's because i can stand such a dumb creature asking me questions.",
+                _ => "...too dumb try another question."
+            };
 
             Console.WriteLine(response);
         }
