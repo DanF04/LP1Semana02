@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GranpaPatternSwitch", "Gran
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTGrandfather", "ChatGPTGrandfather\ChatGPTGrandfather.csproj", "{536F6470-229F-47E5-8134-2B055EAC6684}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTMother", "ChatGPTMother\ChatGPTMother.csproj", "{6DF81CD6-A419-429F-BBCD-AB33514BBDF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{536F6470-229F-47E5-8134-2B055EAC6684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536F6470-229F-47E5-8134-2B055EAC6684}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536F6470-229F-47E5-8134-2B055EAC6684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF81CD6-A419-429F-BBCD-AB33514BBDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF81CD6-A419-429F-BBCD-AB33514BBDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF81CD6-A419-429F-BBCD-AB33514BBDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF81CD6-A419-429F-BBCD-AB33514BBDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
