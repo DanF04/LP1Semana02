@@ -50,8 +50,10 @@ namespace Specials
             Console.WriteLine("special positive infinity: " + x);
             Console.WriteLine("special negative infinity: " + x2);
             Console.WriteLine("NAN x3: " + x3);
-            
-            
+
+            int x4 = int.MaxValue;
+            Console.WriteLine((int)(x4 + 1));
+
 
 
         }
