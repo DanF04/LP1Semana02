@@ -6,10 +6,12 @@ namespace PerguntaValores
     {
         static void Main(string[] args)
         {
-            int a = Convert.ToInt32(args[0]);
-            int r = Convert.ToInt32(args[1]);
+            Console.WriteLine($"Insert height:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Insert radius:");
+            int r = Convert.ToInt32(Console.ReadLine());
             double pi = Math.PI;
-            double V = pi * r * r * a;
+            double V = pi * (r * r) * a;
             double Sa = 2 * pi * r * (r + a);
 
             Console.WriteLine($"Volume = " + V);
