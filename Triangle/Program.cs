@@ -8,7 +8,7 @@ namespace Triangle
         {
             int TriSize = Convert.ToInt32(args[0]);
 
-            string x = args[1];
+            string x = "";
 
             for (int i = 0; i < TriSize; i++)
             { 
