@@ -52,7 +52,17 @@ namespace Specials
             Console.WriteLine("NAN x3: " + x3);
 
             int x4 = int.MaxValue;
-            Console.WriteLine((int)(x4 + 1));
+            Console.WriteLine("Int Overflow: " + (int)(x4 + 1));
+            short x5 = short.MaxValue;
+            Console.WriteLine("Short Overflow: " + (short)(x5 + 1));
+
+            double x6 = 2 * double.MaxValue;
+            Console.WriteLine("Real type overflow(double):" + x6);
+            float x7 = 2 * float.MaxValue;
+            Console.WriteLine("Real type overflow(float):" + x7);
+
+
+
 
 
 
