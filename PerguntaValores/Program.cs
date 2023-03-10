@@ -11,7 +11,7 @@ namespace PerguntaValores
             Console.WriteLine($"Insert radius:");
             int r = Convert.ToInt32(Console.ReadLine());
             double pi = Math.PI;
-            double V = pi * (r * r) * a;
+            double V = pi * Math.Pow(r,2) * a;
             double Sa = 2 * pi * r * (r + a);
 
             Console.WriteLine($"Volume = " + V);
