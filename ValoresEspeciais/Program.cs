@@ -57,6 +57,8 @@ namespace ValoresEspeciais
             double positive = double.PositiveInfinity;
             float positivef = float.PositiveInfinity;
             float x = float.NaN;
+            float f1, f2;
+            f1 = f2 = 10000.0f;
 
             //Printing those variables
             Console.WriteLine(negative);
@@ -64,11 +66,14 @@ namespace ValoresEspeciais
             Console.WriteLine(x);
 
             //Printing uint overflow
-            Console.WriteLine($"{ui2 + 1}");
+            Console.WriteLine(ui2 + 1);
 
             //Printing float overflow with two strategies 
-            Console.WriteLine($"{positivef * 2}");
-            Console.WriteLine($"{positivef + 1}");
+            Console.WriteLine(positivef * 2);
+            Console.WriteLine(positivef + 1);
+            
+            //Printing float underflow
+            Console.WriteLine(f1 == f2 + 0.00001f);
 
 
 
