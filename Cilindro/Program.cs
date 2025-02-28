@@ -17,7 +17,9 @@ namespace Cilindro
             double V = Math.PI * Math.Pow(r,2) * a;
             double Sa = 2 * Math.PI * r * (r + a);
 
-            
+            Console.WriteLine($"{V:f3}");
+            Console.WriteLine($"{Sa:f3}");
+
 
         }   
     }
