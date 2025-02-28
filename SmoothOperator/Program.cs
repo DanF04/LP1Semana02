@@ -12,10 +12,10 @@ namespace SmoothOperator
             string smoo = Console.ReadLine();
             
             //Converts user input into an sbyte
-            sbyte convert = sbyte.Parse(smoo);
+            sbyte n = sbyte.Parse(smoo);
 
-            Console.WriteLine ($"{++convert}");
-            Console.WriteLine ($"{--convert}");
+            Console.WriteLine ($"{--n}");
+            Console.WriteLine ($"{++n}");
 
         }
     }
