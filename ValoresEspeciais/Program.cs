@@ -7,11 +7,11 @@ namespace ValoresEspeciais
         private static void Main(string[] args)
         {
 
-            //Variables for all types max and mi values
+            //Variables for all types max and min values
             sbyte sb = sbyte.MaxValue;
             sbyte sb2 = sbyte.MinValue;
             short sh = short.MaxValue;
-            short sh2 = sbyte.MinValue;
+            short sh2 = short.MinValue;
             int nt = int.MaxValue;
             int nt2 = int.MinValue;
             long lo = long.MaxValue;
@@ -50,6 +50,16 @@ namespace ValoresEspeciais
             Console.WriteLine(ch2);
             Console.WriteLine(de);
             Console.WriteLine(de2);
+
+            //Variables for especial values
+            double negative = double.NegativeInfinity;
+            double positive = double.PositiveInfinity;
+            float x = float.NaN;
+
+            //Printing those variables
+            Console.WriteLine(negative);
+            Console.WriteLine(positive);
+            Console.WriteLine(x);
 
         }
     }
