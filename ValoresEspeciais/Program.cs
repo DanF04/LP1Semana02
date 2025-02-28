@@ -29,6 +29,7 @@ namespace ValoresEspeciais
             decimal de = decimal.MaxValue;
             decimal de2 = decimal.MinValue;
 
+
             //Printing the respective values
             Console.WriteLine(sb);
             Console.WriteLine(sb2);
@@ -60,6 +61,9 @@ namespace ValoresEspeciais
             Console.WriteLine(negative);
             Console.WriteLine(positive);
             Console.WriteLine(x);
+
+            //Printing uint overflow
+            Console.WriteLine($"{ui2 + 1}");
 
         }
     }
