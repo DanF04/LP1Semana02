@@ -55,6 +55,7 @@ namespace ValoresEspeciais
             //Variables for especial values
             double negative = double.NegativeInfinity;
             double positive = double.PositiveInfinity;
+            float positivef = float.PositiveInfinity;
             float x = float.NaN;
 
             //Printing those variables
@@ -64,6 +65,12 @@ namespace ValoresEspeciais
 
             //Printing uint overflow
             Console.WriteLine($"{ui2 + 1}");
+
+            //Printing float overflow with two strategies 
+            Console.WriteLine($"{positivef * 2}");
+            Console.WriteLine($"{positivef + 1}");
+
+
 
         }
     }
